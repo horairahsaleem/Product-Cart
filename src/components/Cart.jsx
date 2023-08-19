@@ -33,6 +33,10 @@ const deletehandler =(id)=>{
     type:"delete",
     payload:id
   })
+  dispatch({
+    type:"calculate",
+    
+  })
 
 }
  
